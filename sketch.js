@@ -74,7 +74,7 @@ function randomizer() {
     // ${cake[randomIndex].frosting}', 50, 50);
     //text(cake[randomIndex] + "'s frosting is " + cake[randomIndex].frosting, 75, height - 15);
     image(random(Cakepic), width / 2, height / 2);
-    text(cake[randomIndex], width / 2, height - 15);
+    text(cake[randomIndex], 250, height - 15);
     cake.splice(randomIndex, 1);
   } else {
     background(random(200, 255));
