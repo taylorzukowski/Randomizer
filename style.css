@@ -5,3 +5,12 @@ html, body {
 canvas {
   display: block;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  margin: 10px;
+  flex: 50%;
+}
