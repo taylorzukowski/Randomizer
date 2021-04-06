@@ -78,7 +78,8 @@ function randomizer() {
     cake.splice(randomIndex, 1);
   } else {
     background(random(200, 255));
-    text("nothing left!", width / 2, height - 55);
+    text("Refresh Page", 175, 200);
+    text("to Play Again!", 175, 250);
   }
 
 }
